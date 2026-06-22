@@ -1,0 +1,45 @@
+{
+  "sectionBackgroundVideo": "public/videos/3129671-uhd_3840_2160_30fps.mp4",
+  "projects": [
+    {
+      "id": 1,
+      "name": "GradeTrack Pro: GPA & CGPA Calculator with Admin Panel",
+      "tech": ["React JS", "Spring Boot", "MySQL", "JWT Authentication"],
+      "details": [
+        "Developed a full-stack academic performance management system for GPA and CGPA calculations.",
+        "Implemented JWT authentication and role-based access control.",
+        "Built student dashboards, GPA history tracking, and curriculum management features.",
+        "Integrated PDF generation and academic reporting functionalities."
+      ],
+      "backgroundVideo": "/videos/14893813_1080_1920_30fps.mp4",
+      "github": "https://github.com/Sivaprakasamsiva/GradeTrack-Pro-GPA-CGPA-Calculator-with-Admin-Panel",
+      "liveDemo": "https://gradetrack-pro.vercel.app/"
+    },
+    {
+      "id": 2,
+      "name": "Event Management System",
+      "tech": ["Java Swing", "Maven", "JDBC", "MySQL"],
+      "details": [
+        "Developed a desktop application using a multi-layered architecture and database integration.",
+        "Implemented invoice generation using iTextPDF and OTP verification using Jakarta Mail and Twilio.",
+        "Added role-based access control, real-time chat functionality, analytics dashboards, and payment tracking."
+      ],
+      "backgroundVideo": "/videos/15886614-hd_1080_1920_30fps.mp4",
+      "github": "https://github.com/Sivaprakasamsiva/Event-Management-System",
+      "liveDemo": null
+    },
+    {
+      "id": 3,
+      "name": "Interactive Weather Map",
+      "tech": ["JavaScript", "Leaflet.js", "OpenWeatherMap API"],
+      "details": [
+        "Developed a real-time weather visualization platform using REST APIs.",
+        "Integrated Open WeatherMap, Nominatim Geocoding, and Wikipedia APIs.",
+        "Implemented city search, weather forecasting, and interactive map visualization."
+      ],
+      "backgroundVideo": "/videos/15432956_1080_1920_30fps.mp4",
+      "github": "https://github.com/Sivaprakasamsiva/Weather-Map",
+      "liveDemo": null
+    }
+  ]
+}

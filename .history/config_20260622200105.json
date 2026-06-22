@@ -1,0 +1,9 @@
+{
+  "senderEmail": "your-app-email@gmail.com",
+  "appPassword": "eczd wjrq pylq uapw",
+  "receiverEmail": "your-personal-email@gmail.com",
+  "smtpService": "gmail",
+  "smtpPort": 587,
+  "smtpSecure": false
+}
+

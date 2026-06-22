@@ -1,0 +1,39 @@
+{
+  "name": "SIVAPRAKASAM K",
+  "title": "Full Stack Developer",
+  "dualIdentity": "Associate Developer & Freelance Software Engineer",
+  "location": "Tiruppur, Tamil Nadu",
+  "email": "Sivaprakasamk12@gmail.com",
+  "phone": "+91 90257 22952",
+  "image": "/images/profile.png",
+  "summary": "Associate Developer with experience in developing web applications, backend modules, REST APIs, and database-driven solutions. Skilled in Python, Django, Java, Spring Boot, React, and MySQL. Passionate about building reliable software applications, solving real-world problems, and continuously learning new technologies.",
+  "heroVideo": r"c:\Users\shrir\Downloads\14483720_1920_1080_30fps.mp4",
+  "skillsVideo": "public/videos/9450558-uhd_3840_2160_30fps (1).mp4",
+  "freelanceVideo": "public/videos/12421439_3840_2160_30fps (1).mp4",
+  "contactVideo": "public/videos/14652015_1920_1080_30fps.mp4",
+  "skillsMatrix": {
+    "Programming Languages": ["Python", "Java", "JavaScript"],
+    "Frontend Technologies": ["HTML", "CSS", "Bootstrap", "React JS"],
+    "Backend Technologies": ["Django", "Spring Boot", "Spring Framework", "Hibernate", "REST API"],
+    "Database Technologies": ["MySQL", "JDBC"],
+    "Tools & Platforms": ["Git", "GitHub", "Eclipse", "VS Code", "IntelliJ IDEA", "PyCharm", "Maven"],
+    "Core Concepts": ["Object-Oriented Programming", "Data Structures", "MVC Architecture"]
+  },
+  "softSkills": ["Problem Solving", "Teamwork", "Communication"],
+  "freelanceServices": [
+    {
+      "title": "Enterprise Full-Stack Web Development",
+      "description": "End-to-end clean responsive architectures built via React and robust REST endpoints.",
+      "icon": "fa-code"
+    },
+    {
+      "title": "Custom Backend & API Engineering",
+      "description": "Constructing secure microservices, processing logic modules, and database optimization workflows.",
+      "icon": "fa-server"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/SivaprakasamK",
+    "linkedin": "https://linkedin.com/in/sivaprakasamk"
+  }
+}

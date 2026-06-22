@@ -1,0 +1,9 @@
+{
+  "senderEmail": "prosiva9@gmail.com",
+  "appPassword": "eczd wjrq pylq uapw",
+  "receiverEmail": "sivaprakasam@gmail.com",
+  "smtpService": "gmail",
+  "smtpPort": 587,
+  "smtpSecure": false
+}
+

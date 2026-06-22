@@ -1,0 +1,179 @@
+{
+  "name": "SIVAPRAKASAM K",
+  "title": "Full Stack Developer",
+  "dualIdentity": "Associate Developer & Freelance Software Engineer",
+  "location": "Tiruppur, Tamil Nadu",
+  "email": "Sivaprakasamk12@gmail.com",
+  "phone": "+91 90257 22952",
+  "image": "/images/profile.png",
+  "summary": "Associate Developer with experience in developing web applications, backend modules, REST APIs, and database-driven solutions. Skilled in Python, Django, Java, Spring Boot, React, and MySQL. Passionate about building reliable software applications, solving real-world problems, and continuously learning new technologies.",
+  "heroVideo": "import React from 'react';
+import { motion } from 'framer-motion';
+import GlassButton from '../UI/GlassButton';
+
+const Hero = ({ profile }) => {
+  if (!profile) return null;
+
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
+  return (
+    <section id="hero" className="min-h-screen flex items-center relative overflow-hidden">
+      {/* ============================================================
+          BACKGROUND VIDEO - Clean with subtle mask
+          ============================================================ */}
+      {profile.heroVideo && (
+        <div className="absolute inset-0 w-full h-full">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{ 
+              opacity: 0.55,
+              // Gentle mask - only soft edge fade, not aggressive blur
+              maskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',
+            }}
+          >
+            <source src={profile.heroVideo} type="video/mp4" />
+          </video>
+        </div>
+      )}
+      
+      {/* ============================================================
+          NATURAL GRADIENT OVERLAY - Soft, not harsh
+          ============================================================ */}
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19]/90 via-[#0B0F19]/40 to-[#0B0F19]/60"></div>
+      
+      {/* Soft ambient glow - adds depth without blurring */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[400px] bg-accent/5 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-emerald-400/5 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div className="container mx-auto px-4 py-20 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
+          {/* ============================================================
+              LEFT CONTENT - Clean text, no harsh shadows
+              ============================================================ */}
+          <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={{
+              visible: { transition: { staggerChildren: 0.1 } },
+            }}
+          >
+            <motion.div variants={fadeInUp} className="mb-4">
+              <span className="inline-block bg-accent/15 text-accent px-4 py-1.5 rounded-full text-sm border border-accent/20">
+                <i className="fas fa-code mr-2"></i> {profile.title}
+              </span>
+            </motion.div>
+            
+            <motion.h1 
+              variants={fadeInUp} 
+              className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight"
+            >
+              {profile.name}
+            </motion.h1>
+            
+            <motion.h2 
+              variants={fadeInUp} 
+              className="text-xl md:text-2xl text-gray-300 mt-3 font-light"
+            >
+              {profile.dualIdentity}
+            </motion.h2>
+            
+            <motion.p 
+              variants={fadeInUp} 
+              className="text-gray-300 text-base mt-4 max-w-lg"
+            >
+              {profile.summary}
+            </motion.p>
+            
+            <motion.div variants={fadeInUp} className="flex flex-wrap gap-4 mt-8">
+              <GlassButton href="#projects" primary>
+                <i className="fas fa-rocket"></i> Explore Portfolio
+              </GlassButton>
+              <GlassButton href="#contact">
+                <i className="fas fa-handshake"></i> Get In Touch
+              </GlassButton>
+            </motion.div>
+            
+            <motion.div variants={fadeInUp} className="flex gap-6 mt-8 text-sm text-gray-400">
+              <span><i className="fas fa-map-pin text-accent mr-2"></i>{profile.location}</span>
+              <span><i className="fas fa-envelope text-accent mr-2"></i>{profile.email}</span>
+            </motion.div>
+          </motion.div>
+
+          {/* ============================================================
+              RIGHT CONTENT - Profile Image with clean glow
+              ============================================================ */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex justify-center"
+          >
+            <div className="relative w-80 h-80">
+              {/* Outer glow - clean, not blurry */}
+              <div className="absolute inset-[-20px] bg-gradient-to-br from-accent/20 to-emerald-400/20 rounded-full blur-2xl"></div>
+              
+              {/* Subtle ring */}
+              <div className="absolute inset-0 border border-accent/20 rounded-full"></div>
+              <div className="absolute inset-4 border border-white/5 rounded-full"></div>
+              
+              {/* Image container - clean edges */}
+              <div className="absolute inset-8 rounded-full overflow-hidden bg-gradient-to-br from-accent/10 to-emerald-400/10 border border-accent/30 shadow-xl shadow-accent/10">
+                {profile.image ? (
+                  <img 
+                    src={profile.image} 
+                    alt={profile.name}
+                    className="w-full h-full object-cover"
+                    style={{ imageRendering: 'auto' }}
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <span className="text-6xl font-bold text-white/40">SK</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;",
+  "skillsVideo": "public/videos/9450558-uhd_3840_2160_30fps (1).mp4",
+  "freelanceVideo": "public/videos/12421439_3840_2160_30fps (1).mp4",
+  "contactVideo": "public/videos/14652015_1920_1080_30fps.mp4",
+  "skillsMatrix": {
+    "Programming Languages": ["Python", "Java", "JavaScript"],
+    "Frontend Technologies": ["HTML", "CSS", "Bootstrap", "React JS"],
+    "Backend Technologies": ["Django", "Spring Boot", "Spring Framework", "Hibernate", "REST API"],
+    "Database Technologies": ["MySQL", "JDBC"],
+    "Tools & Platforms": ["Git", "GitHub", "Eclipse", "VS Code", "IntelliJ IDEA", "PyCharm", "Maven"],
+    "Core Concepts": ["Object-Oriented Programming", "Data Structures", "MVC Architecture"]
+  },
+  "softSkills": ["Problem Solving", "Teamwork", "Communication"],
+  "freelanceServices": [
+    {
+      "title": "Enterprise Full-Stack Web Development",
+      "description": "End-to-end clean responsive architectures built via React and robust REST endpoints.",
+      "icon": "fa-code"
+    },
+    {
+      "title": "Custom Backend & API Engineering",
+      "description": "Constructing secure microservices, processing logic modules, and database optimization workflows.",
+      "icon": "fa-server"
+    }
+  ],
+  "social": {
+    "github": "https://github.com/SivaprakasamK",
+    "linkedin": "https://linkedin.com/in/sivaprakasamk"
+  }
+}

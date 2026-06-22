@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables - NEVER commit these!
+.env
+.env.local
+.env.production
+.env.development
+*.env
+*.env.local
+
+# Config files with secrets - NEVER commit!
+config.json
+*.config.json
+
+# Build outputs
+dist/
+build/
+.vite/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
