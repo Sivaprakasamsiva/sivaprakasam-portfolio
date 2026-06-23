@@ -24,7 +24,7 @@
         "Implemented invoice generation using iTextPDF and OTP verification using Jakarta Mail and Twilio.",
         "Added role-based access control, real-time chat functionality, analytics dashboards, and payment tracking."
       ],
-      "backgroundVideo": "videos/project2.mp4",
+      "backgroundVideo": "public/videos/project2.mp4",
       "github": "https://github.com/Sivaprakasamsiva/Event-Management-System",
       "liveDemo": null
     },

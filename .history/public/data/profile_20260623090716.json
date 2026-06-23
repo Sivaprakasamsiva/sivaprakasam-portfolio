@@ -8,8 +8,8 @@
   "image": "/images/profile.png",
   "summary": "Associate Developer with experience in developing web applications, backend modules, REST APIs, and database-driven solutions. Skilled in Python, Django, Java, Spring Boot, React, and MySQL. Passionate about building reliable software applications, solving real-world problems, and continuously learning new technologies.",
   "heroVideo": "videos/profile.mp4",
-  "skillsVideo": "videos/skills.mp4",
-  "freelanceVideo": "videos/freelance.mp4",
+  "skillsVideo": "public/videos/skills.mp4",
+  "freelanceVideo": "public/videos/freelance.mp4",
   "contactVideo": "videos/contact.mp4",
   "skillsMatrix": {
     "Programming Languages": ["Python", "Java", "JavaScript"],

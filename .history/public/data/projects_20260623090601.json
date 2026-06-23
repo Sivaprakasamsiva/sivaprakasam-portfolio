@@ -24,7 +24,7 @@
         "Implemented invoice generation using iTextPDF and OTP verification using Jakarta Mail and Twilio.",
         "Added role-based access control, real-time chat functionality, analytics dashboards, and payment tracking."
       ],
-      "backgroundVideo": "videos/project2.mp4",
+      "backgroundVideo": "videos/16945380-hd_1080_1920_30fps.mp4",
       "github": "https://github.com/Sivaprakasamsiva/Event-Management-System",
       "liveDemo": null
     },
@@ -37,7 +37,7 @@
         "Integrated Open WeatherMap, Nominatim Geocoding, and Wikipedia APIs.",
         "Implemented city search, weather forecasting, and interactive map visualization."
       ],
-      "backgroundVideo": "videos/project3.mp4",
+      "backgroundVideo": "videos/15432956_1080_1920_30fps.mp4",
       "github": "https://github.com/Sivaprakasamsiva/Weather-Map",
       "liveDemo": "https://darling-weathermappro-d596d4.netlify.app/"
     }

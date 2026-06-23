@@ -2,7 +2,7 @@
   "role": "Associate Developer",
   "company": "Texa Innovate Pvt Ltd, Coimbatore",
   "timeline": "Dec 2025 - Jun 2026",
-  "experienceVideo": "videos/experiance.mp4",
+  "experienceVideo": "public/videos/experiance.mp4",
   "accomplishments": [
     "Contributed to the development of a Human Tracking and Monitoring System using Python, Django, and MySQL.",
     "Developed backend modules, REST APIs, and database functionalities to support application workflows.",
