@@ -11,7 +11,7 @@
         "Built student dashboards, GPA history tracking, and curriculum management features.",
         "Integrated PDF generation and academic reporting functionalities."
       ],
-      "backgroundVideo": "videos/14893813_1080_1920_30fps.mp4",
+      "backgroundVideo": "/videos/14893813_1080_1920_30fps.mp4",
       "github": "https://github.com/Sivaprakasamsiva/GradeTrack-Pro-GPA-CGPA-Calculator-with-Admin-Panel",
       "liveDemo": "https://gradetrack-pro.vercel.app/"
     },
@@ -37,7 +37,7 @@
         "Integrated Open WeatherMap, Nominatim Geocoding, and Wikipedia APIs.",
         "Implemented city search, weather forecasting, and interactive map visualization."
       ],
-      "backgroundVideo": "videos/15432956_1080_1920_30fps.mp4",
+      "backgroundVideo": "/videos/15432956_1080_1920_30fps.mp4",
       "github": "https://github.com/Sivaprakasamsiva/Weather-Map",
       "liveDemo": "https://darling-weathermappro-d596d4.netlify.app/"
     }
