@@ -1,5 +1,5 @@
 {
-  "sectionBackgroundVideo": "videos/15236693_1920_1080_30fps (1).mp4",
+  "sectionBackgroundVideo": "public/videos/15236693_1920_1080_30fps (1).mp4",
   "projects": [
     {
       "id": 1,
@@ -24,7 +24,7 @@
         "Implemented invoice generation using iTextPDF and OTP verification using Jakarta Mail and Twilio.",
         "Added role-based access control, real-time chat functionality, analytics dashboards, and payment tracking."
       ],
-      "backgroundVideo": "videos/16945380-hd_1080_1920_30fps.mp4",
+      "backgroundVideo": "videos/New folder/16945380-hd_1080_1920_30fps.mp4",
       "github": "https://github.com/Sivaprakasamsiva/Event-Management-System",
       "liveDemo": null
     },
